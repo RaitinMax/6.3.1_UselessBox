@@ -1,5 +1,5 @@
 public class Toy extends Thread {
-    public volatile boolean isOpen;// не понимаю зачем здесь volatile
+    private volatile boolean isOpen;
 
     @Override
     public void run() {

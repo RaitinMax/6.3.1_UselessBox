@@ -1,6 +1,6 @@
 public class User extends Thread {
-    private final int TIME_TO_PUT_BUTTON = 5;
-    private final int TIME_TO_WAIT = 1000;
+    private  static final int TIME_TO_PUT_BUTTON = 5;
+    private static final int TIME_TO_WAIT = 1000;
     private final Toy toy;
 
     public User(Toy toy) {
